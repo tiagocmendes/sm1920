@@ -10,7 +10,7 @@ clc;
 Ta = 1/25; % Tempo de amostragem em segundos
 
 x1 = [-5:Ta:5]';
-x2 = [-5:Ta:5];
+x2 = [-5:Ta:5]';
 t = [0:Ta:5]';
 r = zeros(length(x1), length(x2));
 for n = 1:length(t)
